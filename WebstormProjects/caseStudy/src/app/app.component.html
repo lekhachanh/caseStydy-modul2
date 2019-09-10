@@ -1,16 +1,17 @@
 <div class="container" style="height: auto">
   <header class="row">
-<!--    <div class="head">-->
-<!--      <h1>Online book store</h1>-->
-<!--      <h5>Small wikipedia</h5>-->
-<!--    </div>-->
-    <a routerLink="login" class="btn btn-primary">Login</a>
-    <a routerLink="register" class="btn btn-primary">Register</a>
+    <div class="head col-sm-9">
+      <h1>Messenger</h1>
+      <h5>connect the world</h5>
+    </div>
+    <div class="col-sm-3">
+      <a routerLink="login" class="btn btn-primary" style="margin-left: 0.5rem">Login</a>
+      <a routerLink="register" class="btn btn-primary">Register</a>
+    </div>
   </header>
   <hr>
-  <div>
-
-    <router-outlet></router-outlet>
-  </div>
-
+  <router-outlet></router-outlet>
+  <footer >
+    <p style="text-align: center; color: #37c1ff">Free to connect </p>
+  </footer>
 </div>

@@ -25,7 +25,7 @@ export class UserloginComponent implements OnInit {
   onSubmit(data) {
     if (data.userName === 'admin' && data.password === '123456') {
       alert('login successful');
-      this.router.navigate(['messageForm']);
+      this.router.navigate(['customer-management']);
     } else {
       alert('incorrect password');
     }
