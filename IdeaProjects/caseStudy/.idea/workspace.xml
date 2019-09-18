@@ -29,6 +29,12 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -58,8 +64,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -343,6 +349,13 @@
       <workItem from="1565863720349" duration="340000" />
       <workItem from="1565864080904" duration="760000" />
       <workItem from="1565917457306" duration="11070000" />
+      <workItem from="1568346316719" duration="771000" />
+      <workItem from="1568388363419" duration="816000" />
+      <workItem from="1568597398485" duration="20000" />
+      <workItem from="1568690538280" duration="13000" />
+      <workItem from="1568706547405" duration="3908000" />
+      <workItem from="1568710799775" duration="1036000" />
+      <workItem from="1568768367154" duration="8206000" />
     </task>
     <servers />
   </component>

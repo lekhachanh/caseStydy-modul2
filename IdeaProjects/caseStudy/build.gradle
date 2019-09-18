@@ -31,4 +31,6 @@ dependencies {
     compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: '4.2.3.RELEASE'
     compile group: 'org.thymeleaf.extras', name: 'thymeleaf-extras-springsecurity4', version: '3.0.2.RELEASE'
 
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.5.3'
+
 }

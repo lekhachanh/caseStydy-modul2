@@ -64,7 +64,7 @@ public class NoteController {
         }
     }
 
-    @GetMapping("/edit/{id}")
+        @GetMapping("/edit/{id}")
     public ModelAndView showEditNoteForm(@PathVariable Long id){
         Note note = noteService.findById(id);
         if (note != null) {

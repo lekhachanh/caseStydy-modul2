@@ -1,6 +1,7 @@
 package com.codegym.configuration;
 
 
+import com.codegym.repository.NoteRepository;
 import com.codegym.service.NoteService;
 import com.codegym.service.NoteTypeService;
 
@@ -72,7 +73,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     }
 
 
-    //cau hinh thymeleaf
+   //cau hinh thymeleaf
     @Bean
     public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();

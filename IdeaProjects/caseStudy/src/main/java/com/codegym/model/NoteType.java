@@ -12,7 +12,7 @@ public class NoteType {
     private String name;
     private String description;
 
-    @OneToMany(targetEntity = Note.class)
+    @OneToMany(targetEntity = Note.class, mappedBy = "noteType")
     private List<Note> noteList;
 
     public NoteType() {
